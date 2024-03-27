@@ -13,3 +13,5 @@ RUN npm install
 
 # no need for /home/app/server.js because of WORKDIR
 CMD ["node", "index.js"]
+
+EXPOSE 3000
