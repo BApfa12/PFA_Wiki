@@ -25,7 +25,7 @@ metadata:
 spec:
   selector:
     app: wiki-app
-  type: ClusterIP
+  type: NodePort
   ports:
     - protocol: TCP
       port: 80
